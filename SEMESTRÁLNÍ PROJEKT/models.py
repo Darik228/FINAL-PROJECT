@@ -20,8 +20,8 @@ class Post(models.Model):
     article = 'AR'
     news = 'NW'
     TITLE_CHOICES = [
-        (article, 'Статья'),
-        (news, 'Новость')
+        (article, 'article'),
+        (news, 'news')
     ]
 
     publication = models.CharField(max_length=2, choices=TITLE_CHOICES, default=article)
