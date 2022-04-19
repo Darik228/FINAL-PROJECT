@@ -56,5 +56,5 @@ It consists of the following:
 8. Update users ratings.
 9. Output username and the rating of the best user.
 10. Display the date of addition, username of the author, rating, title and preview of the best article, based on likes/dislikes to this article.
-11.Display all comments (date, user, rating, text) to this article.
+11. Display all comments (date, user, rating, text) to this article.
 """
